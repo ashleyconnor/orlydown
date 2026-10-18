@@ -30,6 +30,7 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/ashleyconnor/orlydown"
 Issues = "https://github.com/ashleyconnor/orlydown/issues"
+Changelog = "https://github.com/ashleyconnor/orlydown/blob/main/CHANGELOG.md"
 
 [project.scripts]
 orlydown = "oreilly_downloader:main"
@@ -42,4 +43,4 @@ build-backend = "hatchling.build"
 only-include = ["oreilly_downloader.py"]
 
 [tool.hatch.build.targets.sdist]
-only-include = ["oreilly_downloader.py", "README.md", "LICENSE"]
+only-include = ["oreilly_downloader.py", "README.md", "LICENSE", "CHANGELOG.md"]
